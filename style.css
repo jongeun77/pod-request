@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=IBM+Plex+Sans:wght@400;600;700&family=Inter&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input{ outline: none; border: none; padding: 1.5rem 3.2rem 1.5rem 3.2rem; color: #fff; }
+body{
+  background: #121725e0 url(./assets/mobile/image-host.jpg)no-repeat center top/cover;
+  background-blend-mode: multiply;
+}
+html, body{ font-size: 62.5%; font-family: "chivo", sans-serif;}
+a{ text-decoration: none;}
+ul, li, ol { list-style: none;}
+
+@media screen and (min-width: 375px){
+
+.pod_container{ width: 100%; max-width: 37.5rem; padding: 6.2rem 2.4rem 0 2.4rem; margin: 0 auto;}
+.navbar { text-align: center; padding-bottom: 5.6rem;}
+.navbar h1 a{ width: 100%; display: inline-block; cursor: pointer;}
+.info{ text-align: center;}
+.info h2{ color: #fff; font-size: 2.6rem; line-height: 3.8rem; font-weight: 300; text-transform: uppercase;}
+.info h2 span{ color: #54E6AF; text-transform: uppercase;}
+.info p{ color: #C2CBE5; font-size: 15px; padding: 2.5rem 0 0 0; font-weight: normal; line-height: 2.5rem; opacity: 0.7;}
+.info_form{ display: flex; justify-content: space-evenly;}
+.info_form form{}
+.info_form form input[type="email"]{ display: block; border-radius: 3.8rem; background-color: #2C344B
+  ; width: 32.7rem; margin-bottom: 1.6rem;}
+.info_form form input[type="submit"]{ display: inline-block; border-radius: 3.8rem; background-color: #54E6AF; width: 32.7rem; color: 121725; color: #2C344B; font-weight: bold; cursor: pointer;}
+input::placeholder{ color: #fff; opacity: 0.5; font-size: 1.4rem;}
+.logos{ display: flex; padding: 4.8rem 0; justify-content: space-between; opacity: 0.5;}
+.logos img:nth-child(1){ width: 5.6rem; }
+.logos img:nth-child(2){ width: 4.5rem; }
+.logos img:nth-child(3){ width: 7.3rem; }
+.logos img:nth-child(4){ width: 7.7rem;}
+.small_dot{}
+.flex_box { display: flex; flex-direction: column;}
+.flex_box > div:first-child{ order: 2;}
+.flex_box > div:last-child{ order: 1;}
+}
